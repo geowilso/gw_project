@@ -27,3 +27,9 @@ six>=1.14
 joblib
 memoized-property
 termcolor
+
+#le wagon
+git+ssh://git@github.com/munirj/mjproj
+git+ssh://git@github.com/HeleneLi/helene-playground
+git+ssh://git@github.com/rradulov/amazing
+git+ssh://git@github.com/patrickarigg/prproj

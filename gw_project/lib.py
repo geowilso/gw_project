@@ -1,4 +1,3 @@
-
 #Implementation of Two Player Tic-Tac-Toe game in Python.
 
 ''' We will make the board using dictionary
@@ -28,6 +27,12 @@ def printBoard(board):
 
 # Now we'll write the main function which has all the gameplay functionality.
 def try_me():
+
+    print("""The board:
+    {'7': ' ' , '8': ' ' , '9': ' ' ,
+    '4': ' ' , '5': ' ' , '6': ' ' ,
+    '1': ' ' , '2': ' ' , '3': ' ' }
+    """)
 
     turn = 'X'
     count = 0
