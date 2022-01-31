@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+from gw_project.lib import curent_time
+
+if __name__ == "__main__":
+    curent_time()

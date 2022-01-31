@@ -113,5 +113,18 @@ def try_me():
 
         try_me()
 
+
+from datetime import datetime
+
+
+def curent_time():
+    now = datetime.now()
+    current_time = now.strftime("%H:%M:%S")
+    print(f'The current time is: {current_time}')
+    return f'The current time is: {current_time}'
+
+
+
 if __name__ == "__main__":
+    curent_time()
     try_me()
